@@ -1,0 +1,533 @@
+.aboutContent .content {
+  .swiperLeft,.swiperRight{display: none;}
+}
+.height_mobile_40{height: 40px;}
+.height_moblie_10{height: 10px;}
+.height_mobile_70{height: 70px;}
+.height_mobile_100{height: 100px;}
+.height_mobile_110{height: 0px;}
+.height_mobile_120{height: 30px;}
+.height_mobile_20{height: 20px;}
+.mobile_block{display: block;}
+.mobileShow{display: block;}
+.mobileHide{display: none;}
+.aboutUSDX{background-image: none;}
+.topNav{
+  height: 50px;
+  background:rgba(41, 43, 49, .8);
+  .icon-USDX-logo{
+    font-size: 32px;
+  }
+  img{
+    height: 48px;
+    width: auto;
+    margin-top: 15px;
+  }
+  li{
+    display: none;
+  }
+  .navBar{
+    display: block;
+    width: 23px;
+    height: 17px;
+    position: absolute;
+    right: 18px;
+    top:18px;
+    background: url("../images/mobile/nav_bar_icon.png");
+    background-repeat: no-repeat;
+  }
+  ul{
+    position: absolute;
+  }
+}
+.teamBox .teamMember{
+  .intro{
+    .title{
+      font-size: 13px;
+      font-weight: normal;
+    }
+  }
+
+}
+.indexSection{
+  height: auto;
+  padding-bottom: 80px;
+  .indexBox{
+    width: 352px;
+    height: 468px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 342px auto;
+    background-position: 32px top;
+
+    .indexContent{
+      padding: 0px;
+      padding-top: 260px;
+      padding-left: 32px;
+      h2{
+        font-size: 52px;
+        .icon-USDX{
+          font-size: 50px;
+        }
+      }
+    }
+    p{font-size: 18px;line-height: 21px;}
+
+    .indexBox-line div{
+      left: 70%;
+      width: 40px;
+      &:nth-child(1){
+        top: 8%;
+      }
+      &:nth-child(2){
+        top: 25%;
+      }
+      &:nth-child(3){
+        top: 51%;
+      }
+    }
+  }
+
+}
+.whitePaper{
+  font-size: 12px;
+  height: 38px;
+  width: 152px;
+}
+.aboutContent-box{
+  overflow-x: hidden;
+}
+.aboutUSDX{
+  width: 100%;
+  .title{
+    width: 336px;
+    .line_icon{
+      width: 60px;
+      background-size: 60px auto;
+    }
+    span{
+      font-size: 29px;
+      font-weight: 500;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+  }
+  .aboutContent{
+    width: 100%;
+    .content{
+      width: 100%;
+      padding-top:30px;
+      padding-left: 24px;
+      box-sizing: border-box;
+      h2{
+        font-size: 21px;
+        line-height: 23px;
+      }
+      .line{
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 12px;
+        line-height: 16px;
+        padding-right: 48px;
+        margin-top: 8px;
+      }
+
+      .order{margin-top: 32px;}
+    }
+    .rightPicBox{
+      left:0;
+      top:60px;
+      height: auto;
+      .bottomBase{
+        width: 335px;
+        height: 244px;
+        left:0;
+        bottom: 0;
+        top:305px;
+        background-size: 394px auto;
+      }
+      .topImage{
+        left:24px;
+        top:192px;
+        width: 331px;
+        height: 288px;
+        background-size: 328px auto;
+      }
+    }
+  }
+  /*two*/
+  .phaseTwoBox{
+    .content{
+      h2{
+        font-size: 21px;
+        line-height: 23px;
+      }
+      p{
+        font-size: 12px;
+        line-height: 16px;
+        width: 312px;
+      }
+      .order{margin-top: 40px;}
+    }
+    .rightPicBox{
+      left:0;
+      top:120px;
+      height: auto;
+      margin-top: -27px;
+      .bottomBase{
+        width: 335px;
+        height: 244px;
+        left:0;
+        bottom: 0;
+        top:305px;
+        background-size: 394px auto;
+      }
+      .topImage{
+        left:24px;
+        top:240px;
+        width: 350px;
+        height: 213px;
+        background-size: 340px auto;
+      }
+    }
+
+
+  }
+  /*three*/
+  .phaseThreeBox{
+    height: 700px;
+    .content{
+      h2{
+        font-size: 21px;
+        line-height: 23px;
+      }
+      p{
+        font-size: 12px;
+        line-height: 16px;
+        width: 312px;
+      }
+      p:first-child{margin-top: 16px;}
+      .order{margin-top: 40px;}
+    }
+    .rightPicBox{
+      left:0;
+      top:120px;
+      height: auto;
+      margin-top: 215px;
+      .bottomBase{
+        top:150px;
+      }
+      .topImage{
+        left:20px;
+        top:58px;
+        width: 350px;
+        height: 252px;
+        background-size: 350px 252px;
+      }
+    }
+  }
+
+}
+.teamHeader{
+  width: 100%;
+  img{width: 92%; display: block; margin:  0 auto;}
+}
+.teamBox{
+  .teamMember{
+    width: 100%;
+    height: auto;
+    padding: 0 0 70px 0;
+    br{
+      display: none;
+    }
+    p{
+      line-height: 12px;
+      font-size: 10px;
+    }
+    .itemOne{
+      padding-left: 24px;
+      padding-right: 12px;
+      position: relative;
+      height: auto;
+      .intro{
+        float: left;
+        width: auto;
+        padding-left: 128px;
+        font-size: 13px;
+        padding-top: 0px;
+      }
+      .teamPic{
+        position: absolute;
+        margin: 0;
+        img{
+          width: 104px;
+          padding-left: 0px;
+        }
+      }
+      .bigCapitial{
+        display: none;
+      }
+    }
+    .itemTwo{
+      padding-left: 24px;
+      padding-right: 24px;
+      position: relative;
+      height: auto;
+      margin-top: 0px;
+      .intro{
+        width: auto;
+        padding-right: 100px;
+        padding-top: 18px;
+      }
+      .teamPic{
+        position: absolute;
+        right:24px;
+        margin: 0;
+        top:0;
+        img{
+          width: 104px;
+        }
+      }
+      .bigCapitial{
+        display: none;
+      }
+    }
+    .itemThree{
+      padding-left: 24px;
+      padding-right: 24px;
+      position: relative;
+      height: auto;
+      margin-top: 152px;
+      .intro{
+        float: left;
+        margin-top: -126px;
+        width: auto;
+        padding-left: 136px;
+        font-size: 13px;
+        margin-left: 0px;
+      }
+      .teamPic{
+        padding: 0;
+        position: absolute;
+        top:0;
+        left:24px;
+        margin: 0;
+        img{
+          width: 104px;
+          left: 0px;
+          top:0px;
+        }
+      }
+      .bigCapitial{
+        display: none;
+      }
+    }
+    .itemFour{
+      padding-left: 24px;
+      padding-right: 24px;
+      position: relative;
+      height: auto;
+      margin-top: 10px;
+      .intro{
+        width: auto;
+        padding-right: 108px;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+
+
+      }
+      .teamPic{
+        position: absolute;
+        right:24px;
+        margin: 0;
+        top:0;
+        img{
+          width: 104px;
+          right: 0px;
+          top:0px;
+        }
+      }
+      .bigCapitial{
+        display: none;
+      }
+    }
+
+    h2{margin-top: -4px;}
+    p{
+      font-size: 10px;
+      line-height: 12px;
+      margin-top: 4px;
+    }
+  }
+  .title{
+    width: 314px;
+    span{
+      font-size: 29px;
+    }
+  }
+
+
+}
+
+.partenersBox{
+  .title{
+    width: 328px;
+    margin: 0 auto;
+    span{
+      font-size: 25px;
+      margin-left: 9px;
+      margin-right: 9px;
+
+    }
+    .line_icon{
+      width: 74px;
+    }
+  }
+}
+.itemContainer{
+  //padding-bottom: 40px;
+  ul{
+    padding-left: 24px;
+    padding-right: 24px;
+
+    li{
+
+    }
+  }
+}
+.partenersBox .itemContainer{
+  padding-bottom:60px;
+}
+.footerBox{
+  height: 234px;
+  .bottomLogo{
+    img{
+      height: 56px;
+      width: 186px;
+    }
+    .icon-USDX-logo{
+      font-size: 50px;
+      margin-top: 8px;
+    }
+  }
+  .linkBox{
+    width: 302px;
+    margin-top: 38px;
+    a{
+      .iconfont{
+        font-size: 20px;
+        margin: 0 10px;
+      }
+    }
+    a:last-child{margin-right: 0px;}
+  }
+  .copyRight{font-size: 13px;}
+}
+.homeBox{
+  .icon-team1{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+.hexagon-box{
+  .icon-adivsor{
+    font-size: 20px;
+  }
+  .hexagon-title{
+    .line{
+      margin: 10px 0px;
+    }
+    h4{
+      font-size: 17px;
+      font-weight: normal;
+    }
+  }
+}
+.phaseTwoDesc{
+  padding-top: 4px;
+  li{
+    margin-top: 12px;
+    line-height: 14px;
+    height: 14px;
+  }
+}
+.aboutUSDX .aboutContent .rightPicBox .topImage{
+  width: auto;
+  top:120px;
+}
+.aboutUSDX .aboutContent .rightPicBox .bottomBase{
+  width: 335px;
+  height: 244px;
+  left: 0;
+  bottom: 0;
+  top: 305px;
+  background-size: 340px auto;
+  top:240px;
+  left: 24px;
+}
+.aboutContent{
+  height: 540px;
+}
+.aboutUSDX .aboutContent .content{
+  padding-top: 0px;
+}
+.aboutUSDX .aboutContent .content .order{
+  margin-top: 0px;
+}
+.aboutContent .rightPicBox .bottomBase .txt{
+  bottom: 61px;
+  left: 135px;
+  font-size: 18px;
+}
+
+
+.aboutUSDX .phaseTwoBox .rightPicBox .topImage{
+  top:130px;
+  left: 12px;
+}
+.aboutUSDX .phaseThreeBox .rightPicBox .topImage{
+  background-size: 78% auto;
+  left: 24px;
+  top:-16px;
+}
+.aboutUSDX .phaseThreeBox .rightPicBox .bottomBase{
+  top:108px;
+}
+.aboutUSDX .phaseOneBox .order{
+  top:100px;
+}
+
+.aboutUSDX{
+  .phaseOneBox{
+    .order{
+      top:154px;
+    }
+  }
+  .phaseTwoBox{
+    .content{
+      .order{
+        margin-top: 0px;
+        top: 192px;
+      }
+    }
+  }
+}
+.aboutUSDX .phaseTwoBox .rightPicBox .bottomBase{
+  top:210px;
+}
+.aboutUSDX .phaseThreeBox .content .order{
+  margin-top: 20px;
+}
+.aboutContent .number{width: auto;}
+.phaseTwoDesc li span{font-size: 12px;}
+.icon-one_big{display: none;}
+.icon-two_big{display: none;}
+.icon-three_big{display: none;}
+.phases-l div{width: auto;margin-top: 0px;}
+.phases-l div:nth-child(2){margin-top: 0px;}
+.phases-l div:last-child{margin-top: 0px;}

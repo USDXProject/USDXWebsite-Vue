@@ -1,0 +1,115 @@
+{
+    "version": "1.0.0",
+    "nav": [
+        {"content": "Home", "ref": "nav-home"},
+        {"content": "About USDX", "ref": "nav-about"},
+        {"content": "Phases", "ref": "nav-phases"},
+        {"content": "Team", "ref": "nav-team"},
+        {"content": "Advisors", "ref": "nav-advisors"},
+        {"content": "Partners", "ref": "nav-parteners"}
+    ],
+    "icon": [
+        {
+            "link": "http://www.halalchain.ae/",
+            "img": "images/company/parterners_1.png"
+        },
+        {
+            "link": "http://spacechain.com/",
+            "img": "images/company/parterners_2.png"
+        },
+        {
+            "link": "https://robin8.net/",
+            "img": "images/company/parterners_3.png"
+        },
+        {
+            "link": "https://qtum.org/en/",
+            "img": "images/company/parterners_4.png"
+        },
+        {
+            "link": "http://entcash.com/",
+            "img": "images/company/parterners_5.png"
+        },
+        {
+            "link": "https://beechat.io/",
+            "img": "images/company/parterners_21.png"
+        },
+        {
+            "link": "http://ink.one/",
+            "img": "images/company/parterners_22.png"
+        },
+        {
+            "link": "https://cfunproject.com/",
+            "img": "images/company/parterners_23.png"
+        },
+        {
+            "link": "https://tokensale.datawallet.com/",
+            "img": "images/company/parterners_24.png"
+        },
+        {
+            "link": "https://pundix.com/",
+            "img": "images/company/parterners_25.png"
+        },
+        {
+            "link": "http://www.hticm.com/aspx/en/en_index.aspx",
+            "img": "images/company/parterners_31.png"
+        },
+        {
+            "link": "http://www.collinstar.com/zh-cn",
+            "img": "images/company/parterners_32.png"
+        },
+        {
+            "link": "http://dupontcapital.com/",
+            "img": "images/company/parterners_33.png"
+        },
+        {
+            "link": "http://www.sora.vc/",
+            "img": "images/company/parterners_34.png"
+        },
+        {
+            "link": "http://draperdragon.com/home-en",
+            "img": "images/company/parterners_35.png"
+        }
+    ],
+    "phases": [
+        {
+            "h4": "Phase 1   Genesis Phase",
+            "p": "Genesis USDX token will be offered with a fixed supply and an initial price for bidding. Before the pegging day, these tokens can be traded freely to  spread."
+        },
+        {
+            "h4": "Transition   Pegging Day",
+            "p": "On the pegging day, USDX will increase or decrease the token supply based on the real-time exchange rate to adjust the USDX price to 1 USD."
+        },
+        {
+            "h4": "Phase 2   Stable Phase",
+            "p": "After pegging day, decentralized algorithmic bank of USDX starts work, making USDX price fluctuates around 1USD. USDX protocol with a non-fixed supply is a unlimited market, attracting more developers to build a financial system that replace the real world financial system."
+        }
+    ],
+    "aboutusdx": [
+        {
+            "h2": "Current Stablecoins Are <span class='mobile_block'>Unsustainable</span>",
+            "p": ["Traditional stablecoin projects collect fiat currency as collateral and generate stablecoin through money covertion  companies, which exsit moral and policy risks."]
+        },
+        {
+            "h2": "What Is USDX",
+            "p": ["USDX is a decentralized stablecoin protocol and maintain the stability of exchange rates by algorithmic bank."],
+            "ul": [{
+                "class": "",
+                "li": "<i class='icon iconfont icon-phaseOne'></i><span>Programmable Money</span>"
+            },{
+                "class": "phase02",
+                "li": "<i class='icon iconfont icon-phaseTwo'></i><span>Algorithmic Central Bank</span>"
+            },{
+                "class": "phase03",
+                "li": "<i class='icon iconfont icon-phaseThree'></i><span>Decentralized Financial System</span>"
+            }]
+        },
+        {
+            "h2": "How USDX Protocol Works",
+            "p": ["1.&nbsp;Measure the exchange rates through reliable Oracle feed from third party",
+                "2.&nbsp;Expansion : when USDX is traded for more than 1USD, the blockchain will mint new coins & distribute to participants intellgently according to protocol",
+                "3.&nbsp;Contraction : when USDX is traded for less than 1USD, the blockchain will generate SDRs(Special Drawing Rigjhs) to recycle stablecoins intellgently according to protocol.",
+                "4.&nbsp;USDX price will fluctuates around 1USD contantly."
+            ]
+        }
+    ]
+}

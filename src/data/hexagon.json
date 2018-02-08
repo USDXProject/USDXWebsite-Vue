@@ -1,0 +1,84 @@
+{
+    "version": "1.0.0",
+    "data": [
+        {},{},{},{},
+
+
+        {
+            "img": "images/hexagon/bot_ceo.png",
+            "title": "Xiahong Lin / Bodhi",
+            "content": "Founder of Bodhi prediction market.<br/>Graduated in Statistical Machine Learning <br/>from Purdue University.<br/>Rich experience in development and <br/>crypto industry, has developed Twitter for Android."
+        },
+        {"img": "images/hexagon/blank.png"},
+        {
+            "img": "images/hexagon/Motoko.png",
+            "title": "Motoko Eio / The Bank of Japan",
+            "content": "Graduated from University of Tokyo.<br/>Used to be an economic adviser<br/>to the Bank of Japan.<br/>Participating in the formulation of<br/>monetary policy of Japan."
+        },
+        {},
+
+
+        {"img": "images/hexagon/blank.png"},
+        {
+            "img": "images/hexagon/JasonFang.png",
+            "title": "Jason Fang / Sora Ventures",
+            "content": "Founding Partner of Sora Ventures.Used to work for Fenbu-shi Capital and Juzhen Financials. Mentor at Alchemist Accelerator and Startupbootcamp in Silicon Valley"
+        },
+        {"img": "images/hexagon/blank.png"},
+        {
+            "img": "images/hexagon/JimDeWild.png",
+            "title": "Jim De Wild / McGill University",
+            "content": "Famous venture capitalist and management educator.<br/>Used to manage and invest over $5 billion.<br/>Doctor of political science and <br/>tenured professor at McGill University."
+        },
+
+
+        {
+            "img": "images/hexagon/Diiorio.png",
+            "title": "Anthony Diiorio / CEO of JAXX",
+            "content": "Famous founder of the JAXX wallet and<br/>co-founder of Ethereum.<br/>Senior cryptocurrency investor Serial entrepreneur,<br/> VC, community organizer, and thought leader in<br/>the field of decentralized technologies"
+        },
+        {"img": "images/hexagon/blank.png"},
+        {
+            "img": "images/hexagon/AlexMashinsky.png",
+            "title": "Alex Mashinsky / CEO of Celsius",
+            "content": "Early developer of VoIP protocol<br/>One of the leading evangelists of web-based <br/> exchangesProminent entrepreneur who has founded several companies over the years, including GroundLink, Transit Wireless, Elematics and Arbinet"
+        },
+        {"img": "images/hexagon/blank.png"},
+
+        
+        {"img": "images/hexagon/blank.png"},
+
+        {
+            "img": "images/hexagon/ErnieEves.png",
+            "title": "Hon. Ernie Eves / GIC",
+            "content": "Founder and President of GIC group.<br/>Rich experience in investment and management.<br/>Has a very unique understanding and insight<br/>to the foreign exchange market,<br/>international trade and monetary policy"
+        },
+        {
+            "img": "images/hexagon/Benartzi.png",
+            "title": "Guy Benartzi / CEO of Bancor",
+            "content": "Founder of Bancor<br/>Famous figure in blockchain industry<br/>Has been active in the blockchain sector since 2012 and has helped introduce numerous local currencies, including Ithacash in New York and Heart Market in Tel Aviv"
+        },
+        {
+            "img": "images/hexagon/PatrickDai.png",
+            "title": "Patrick Dai / Founder of Qtum",
+            "content": "Dropout from the Chinese Academy of Sciences<br/>Used to work for Alibaba Group.<br/>Rich experience in the development<br/> of blockchain technology and management <br/>and striving to push the blockchain technology<br/>to mainstream at an early date"
+        },
+
+
+        {
+            "img": "images/hexagon/RichRobb.png",
+            "title": "Rich Robb / Columbia University",
+            "content": "Professor of Finance at Columbia University.<br/>PhD in Business Economics.<br/>Global head of the derivatives and securities<br/>subsidiaries of the Dai-Ichi Kangyo Bank, Ltd."
+        },
+        {"img": "images/hexagon/blank.png"},
+        {
+            "img": "images/hexagon/JamesPesando.png",
+            "title": "James Pesando / University of Toronto",
+            "content": "Graduated from the Economics Department of Harvard<br/>Famous macroeconomist working as research associate at National Bureau of Economic Research<br/>Thorough research to monetary policy and Hayek theory"
+        },
+        {},
+
+
+        {},{},{},{}
+    ]
+}
