@@ -11,26 +11,28 @@
             <div class="right_btn" @click="run(1)"><i class="icon iconfont icon-9qiehuanqiyou mobileHide" :class="{'active':cur != 2}"></i></div>
             <div :key="index" v-for="(item,index) in aboutusdx" class="aboutContent" :class="{'phaseOneBox':index==0,'phaseTwoBox':index==1,'phaseThreeBox':index==2,'mobileShow':cur!=index}">
                 
-                <div :class="{'mobileShow':cur!=index}" class="content">
-                    <h2 v-html="item.h2"></h2>
-                    <div class='line'></div>
-                    <p v-for="i in item.p" v-html="i"></p>
-                    <ul v-if="item.ul" class='phaseTwoDesc'>
-                        <li :class="i.class" v-html="i.li" v-for="i in item.ul"></li>
-                    </ul>
-                    <div class="order">
-                        <!--<a href="javascript:;" @click="run(-1)" class="swiperBtn swiperLeft mobileHide" :class="{'active':cur != 0}">
-                            <i class="icon iconfont icon-left_arrow"></i>
-                        </a>-->
-                            <div class="number">
-                                <i class="icon iconfont big_number_font" :class="{'icon-one':index==0,'icon-two':index==1,'icon-three':index==2}"></i>
-                                &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-three"></i>
-                            </div>
-                        <!--<a href="javascript:;" @click="run(1)" class="swiperBtn swiperRight mobileHide" :class="{'active':cur != 2}">
-                            <i class="icon iconfont icon-right_arrow"></i>
-                        </a>-->
+                <transition name="fade">
+                    <div v-show="isMobile || cur==index" :class="{'mobileShow':cur!=index}" class="content">
+                        <h2 v-html="item.h2"></h2>
+                        <div class='line'></div>
+                        <p v-for="i in item.p" v-html="i"></p>
+                        <ul v-if="item.ul" class='phaseTwoDesc'>
+                            <li :class="i.class" v-html="i.li" v-for="i in item.ul"></li>
+                        </ul>
+                        <div class="order">
+                            <!--<a href="javascript:;" @click="run(-1)" class="swiperBtn swiperLeft mobileHide" :class="{'active':cur != 0}">
+                                <i class="icon iconfont icon-left_arrow"></i>
+                            </a>-->
+                                <div class="number">
+                                    <i class="icon iconfont big_number_font" :class="{'icon-one':index==0,'icon-two':index==1,'icon-three':index==2}"></i>
+                                    &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-three"></i>
+                                </div>
+                            <!--<a href="javascript:;" @click="run(1)" class="swiperBtn swiperRight mobileHide" :class="{'active':cur != 2}">
+                                <i class="icon iconfont icon-right_arrow"></i>
+                            </a>-->
+                        </div>
                     </div>
-                </div>
+                </transition>
                 
                 <div class="rightPicBox">
                     <div class="bottomBase">
@@ -60,8 +62,13 @@
         data() {
             return {
                 cur: 0,
-                aboutusdx: aboutusdxData.aboutusdx
+                aboutusdx: aboutusdxData.aboutusdx,
+                isMobile: false
             }
+        },
+        mounted() {
+            this.resize();
+            window.addEventListener('resize',this.resize,false);
         },
         methods: {
             run(step) {
@@ -70,6 +77,10 @@
                     return ;
                 }
                 this.cur = cur;
+            },
+            resize() {
+                var w = window.innerWidth;
+                this.isMobile = w<=720;
             }
         }
     }
@@ -90,6 +101,7 @@
 
         }
         .left_btn{
+            z-index: 100;
             cursor: pointer;
             position: absolute;
             left: 28px;
@@ -98,6 +110,7 @@
             i.active{opacity: 1;}
         }
         .right_btn{
+            z-index: 100;
             cursor: pointer;
             position: absolute;
             right: 28px;
@@ -123,6 +136,13 @@
     }
     .leave-mvleft{
         animation: mvleft 0.6s linear;
+    }
+
+    .fade-enter-active, .fade-leave-active{
+        transition: all 1.2s ease;        
+    }
+    .fade-enter, .fade-leave-active{
+        opacity: 0;
     }
     
 

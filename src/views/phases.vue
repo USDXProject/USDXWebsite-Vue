@@ -189,7 +189,7 @@
         flex-direction: column;
         justify-content: center;
         div{
-            margin-top: -84px;
+            margin-top: -143px;
             padding-left: 6px;
             width: 375px;
         }

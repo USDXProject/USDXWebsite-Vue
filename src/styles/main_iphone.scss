@@ -264,6 +264,7 @@
         margin: 0;
         img{
           width: 104px;
+          height: 99px;
           padding-left: 0px;
         }
       }
@@ -289,6 +290,7 @@
         top:0;
         img{
           width: 104px;
+          height: 104px;
         }
       }
       .bigCapitial{
@@ -317,6 +319,7 @@
         margin: 0;
         img{
           width: 104px;
+          height: 102px;
           left: 0px;
           top:0px;
         }
@@ -347,6 +350,7 @@
         top:0;
         img{
           width: 104px;
+          height: 99px;
           right: 0px;
           top:0px;
         }
@@ -415,17 +419,19 @@
     }
   }
   .linkBox{
-    width: 302px;
-    margin-top: 38px;
+    width: 248px;
+    margin-top: 10px;
     a{
+      width: 60px;
       .iconfont{
         font-size: 20px;
         margin: 0 10px;
+
       }
     }
     a:last-child{margin-right: 0px;}
   }
-  .copyRight{font-size: 13px;}
+  .copyRight{font-size: 13px;margin-top: 20px;}
 }
 .homeBox{
   .icon-team1{
@@ -474,7 +480,7 @@
   height: 540px;
 }
 .aboutUSDX .aboutContent .content{
-  padding-top: 0px;
+  padding-top: 6px;
 }
 .aboutUSDX .aboutContent .content .order{
   margin-top: 0px;
@@ -531,3 +537,62 @@
 .phases-l div{width: auto;margin-top: 0px;}
 .phases-l div:nth-child(2){margin-top: 0px;}
 .phases-l div:last-child{margin-top: 0px;}
+.teamBox .teamMember .itemTwo{margin-right: 0px;}
+.support-box  .icon-rd_title{
+  font-size: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.support-box .title .line_icon{
+  width: 64px;
+}
+.supportBg{
+  .hexagon-warp{
+    width: 100%;
+    padding-top: 0px;
+  }
+}
+.supportContent{
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  width: auto;
+    ul{
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      li{
+        margin: 0;
+        padding: 0 24px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+        .nameBox{
+          width: 124px;
+          background-size: 124px 124px;
+          font-size: 16px;
+          padding-top: 34px;
+          line-height: 18px;
+          float: left;
+          h2{margin-top: 4px;}
+          .position{
+            padding-top: 6px;
+            margin-top: 0px;
+          }
+        }
+        .descBox{
+          margin-top: -6px;
+          padding-left: 126px;
+          p{
+            font-size: 12px;
+            line-height: 16px;
+            margin-top: 2px;
+            br{
+              display: none;
+            }
+          }
+        }
+      }
+    }
+}

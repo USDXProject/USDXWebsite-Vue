@@ -185,6 +185,9 @@ body,html{background: #272a2f;}
     line-height: 42px;
     margin-top: 30px;
 }
+.deck{
+    margin-top: 10px;
+}
 
 .adviserBox{
     background: #2b2e34;
@@ -465,10 +468,9 @@ body,html{background: #272a2f;}
         }
         .mt2{margin-top: 2px;}
         .itemOne{
-            // padding-left: 100px;
-
             position: relative;
             height: auto;
+            padding-left: 97px;
             .intro{
                 font-size: 15px;
                 width: 298px;
@@ -488,21 +490,30 @@ body,html{background: #272a2f;}
             }
             img{
                 display: block;
-                padding-left:32px;
+                padding-left:26px;
+                width: 215px;
+                height: 204px;
             }
         }
         .itemTwo{
             height:438px;
             position: relative;
             float: right;
-            // padding-right: 80px;
+            margin-right: 100px;
             margin-top: 40px;
             .intro{
                 font-size: 15px;
                 width: 296px;
                 text-align: left;
             }
-            .teamPic{padding-top: 16px;}
+            .teamPic{
+                padding-top: 16px;
+                padding-left: 38px;
+            }
+            img{
+                width: 202px;
+                height: 202px;
+            }
             .bigCapitial{
                 position: absolute;
                 width: 147px;
@@ -510,7 +521,7 @@ body,html{background: #272a2f;}
                 display: block;
                 background: url("../images/l_big_icon.png") no-repeat;
                 background-size: 147px 225px;
-                right: 281px;
+                right: 180px;
                 top: 292px;
             }
         }
@@ -526,11 +537,14 @@ body,html{background: #272a2f;}
                 margin-left: 110px;
             }
             .teamPic{
+
                 img{
                     display: block;
                     position: absolute;
                     top: 200px;
-                    left: 165px;
+                    left: 168px;
+                    width: 207px;
+                    height: 203px;
                 }
             }
             .bigCapitial{
@@ -553,7 +567,7 @@ body,html{background: #272a2f;}
                 text-align: left;
                 float: left;
                 margin-top: 72px;
-                margin-left: 207px;
+                margin-left: 178px;
             }
             .teamPic{
                 float: left;
@@ -562,33 +576,42 @@ body,html{background: #272a2f;}
                 img{
                     position: absolute;
                     display: block;
-                    right: 160px;
+                    right: 130px;
                     top:36px;
+                    width: 215px;
+                    height: 204px;
                 }
             }
             .bigCapitial{
                 position: absolute;
-                width: 170px;
-                height: 194px;
+                width: 152px;
+                height: 197px;
                 display: block;
-                background: url("../images/a_big_icon.png") no-repeat;
-                background-size: 170px 194px;
-                left: 405px;
+                background: url("../images/d_big_icon.png") no-repeat;
+                background-size: 152px 197px;
+                left: 446px;
                 top:-26px;
             }
         }
     }
 }
-
+.support-box{
+    background-color: #222529;
+}
+.support-box{
+    .title{
+        width: 463px;
+    }
+}
 .teamHeader img{
     display: block;
     margin: 0 auto;
 }
-.teamPic{
+/*.teamPic{
     img{
         width: 200px;
     }
-}
+}*/
 .intro{
     .big_number_font{
         font-size: 22px;
@@ -717,13 +740,24 @@ body,html{background: #272a2f;}
         text-align: center;
         margin: 0 auto;
         margin-top: 28px;
+        width: 320px;
+        height: 48px;
+        display: block;
+        overflow: hidden;
         .iconfont{
             font-size: 26px;
             color: #fff;
             //margin-right: 29px;
         }
         a{
-            margin-right: 29px;
+            width: 80px;
+            height: 44px;
+            line-height: 44px;
+            text-align: center;
+            //margin-right: 60px;
+            display: block;
+            float: left;
+
         }
         a:hover{
             i{
@@ -748,7 +782,9 @@ body,html{background: #272a2f;}
     color: #fff;
     text-align: center;
 }
-
+.supportBg{
+    background-color: #222529;
+}
 /*750*/
 @media screen and (max-width: 720px) {
     @import "./main_iphone";

@@ -14,13 +14,14 @@
             
         </div>
         <div ref="nav-home" class="indexSection clearfix">
-            <div class="height110 height_mobile_40"></div>
+            <!--<div class="height110 height_mobile_40"></div>-->
             <div class="indexBox">
                 <div class="indexContent">
                     <h2><i class="icon iconfont icon-USDX"></i></h2>
                     <p>The Protocol for Decentralized<br/>
                         Stablecoin</p>
-                    <a class="whitePaper" href="whitepaper/USDX Whitepaper 3.2V2.pdf" target="_blank">Whitepaper  Download</a>
+                    <a class="whitePaper" href="whitepaper/USDX Whitepaper.pdf" target="_blank">Whitepaper(TBD)</a>
+                    <!--<a class="whitePaper deck" href="deck/" target="_blank">Deck</a>-->
                 </div>
 
                 <div class="indexBox-line">
@@ -62,7 +63,8 @@
                             <p>Focus on the research of next generation <br/>of currency </p>
                         </div>
                         <div class="teamPic">
-                            <img src="images/team_one.png"/>
+                            <!--<img src="images/team_one.png"/>-->
+                            <img class="teamOne" src="images/team/team_icon_one.png"/>
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
@@ -79,7 +81,8 @@
                             <p>Top-level participation in the design of <br/>legal frameworks for several <br/>cryptocurrencies </p>
                         </div>
                         <div class="teamPic">
-                            <img src="images/team_two.png"/>
+                            <!--<img src="images/team_two.png"/>-->
+                            <img class="teamTwo" src="images/team/team_icon_two.png"/>
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
@@ -94,28 +97,37 @@
                             <p>In charge of strategic planning, business<br/>expansion and cooperation with <br/>regulators, banks and other institutions</p>
                         </div>
                         <div class="teamPic">
-                            <img src="images/team_three.png"/>
+                            <!--<img src="images/team_three.png"/>-->
+                            <img class="teamThree" src="images/team/team_icon_three.png"/>
                         </div>
                         <span class="bigCapitial"></span>
                     </div>
                    <!--team four-->
-                   <!--<div class="itemFour clearfix">
+                   <div class="itemFour clearfix">
                         <div class="intro">
                             <h2>
                                 <i class="icon iconfont icon-four big_number_font"></i>
                                 &nbsp;<span class="small">/ </span><i class="small_number_font icon iconfont icon-four"></i>
-                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Ada Tie</span></h2>
-                            <p>Graduated from University of Toronto<br/>and London School of Economics</p>
-                            <p>Not only a financial practitioner but also<br/>a brand expert</p>
-                            <p>Rich brand and marketing experience in<br/>art curatorial, luxury marketing and<br/> private banking.</p>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">Dennis S. Lee</span></h2>
+                            <p>Serial entrepreneur and Crypto <br/>evangelist </p>
+                            <p>INK Business Developer</p>
+                            <p>Talented in marketing and brand</p>
                         </div>
                         <div class="teamPic">
-                            <img src="images/team_four.png"/>
+                            <!--<img src="images/team_four.png"/>-->
+                            <img class="teamFour" src="images/team/team_icon_four.png"/>
                         </div>
                         <span class="bigCapitial"></span>
-                    </div>-->
+                    </div>
                 </div>
         </div>
+
+        <div class="supportBg clearfix" ref="screen">
+            <div ref="nav-supports" class="hexagon-warp">
+                <support></support>
+            </div>
+        </div>
+
         <div class="blueBg" ref="screen">
             <div ref="nav-advisors" class="hexagon-warp">
                 <div class="advisorBox mobileHide">
@@ -136,22 +148,25 @@
                 <p class="bottomLogo">
                     <i class="icon iconfont icon-USDX-logo"></i>
                 </p>
-                <div class="clearfix linkBox">
-                    <a href="https://twitter.com/NewMoneyUSDX"  class="icon icon_facebook"><i class="icon iconfont icon-twitter"></i></a>
-                    <a href="https://www.facebook.com/NewMoneyUSDX" target="_blank" class="icon icon_f"><i class="icon iconfont icon-facebook"></i></a>
-                    <!--<a href="javascript:;" target="_blank" class="icon icon_msg"><i class="icon iconfont icon-mailbox"></i></a>
-                    <a href="javascript:;" target="_blank" class="icon icon_m"><i class="icon iconfont icon-medium"></i></a>-->
-                    <a href="https://github.com/USDXProject" target="_blank" class="icon icon_github"><i class="icon iconfont icon-github"></i></a>
-                    <!--<a href="javascript:;" target="_blank" class="icon icon_reddit"><i class="icon iconfont icon-reddit"></i></a>-->
-                    <a href="https://t.me/NewMoneyUSDX" target="_blank" class="icon icon_medium"><i class="icon iconfont icon-emi"></i></a>
-                </div>
-                <p class="copyRight">©️USDX 2017.All Rights Reserved.</p>
             </div>
+            <div style="clear:both;"></div>
+            <div class="clearfix linkBox">
+                <a href="https://twitter.com/NewMoneyUSDX"  class="icon icon_facebook"><i class="icon iconfont icon-twitter"></i></a>
+                <a href="https://www.facebook.com/NewMoneyUSDX" target="_blank" class="icon icon_f"><i class="icon iconfont icon-facebook"></i></a>
+                <!--<a href="javascript:;" target="_blank" class="icon icon_msg"><i class="icon iconfont icon-mailbox"></i></a>
+                <a href="javascript:;" target="_blank" class="icon icon_m"><i class="icon iconfont icon-medium"></i></a>-->
+                <a href="https://github.com/USDXProject" target="_blank" class="icon icon_github"><i class="icon iconfont icon-github"></i></a>
+                <!--<a href="javascript:;" target="_blank" class="icon icon_reddit"><i class="icon iconfont icon-reddit"></i></a>-->
+                <a href="https://t.me/NewMoneyUSDX" target="_blank" class="icon icon_medium"><i class="icon iconfont icon-emi"></i></a>
+            </div>
+            <div style="clear:both;"></div>
+            <p class="copyRight">©️USDX 2018.All Rights Reserved.</p>
         </footer>
     </div>
 </template>
 
 <script type="text/javascript">
+    import Support from './support';
     import Hexagon from './hexagon';
     import Phases from './phases';
     import Parteners from './parteners';
@@ -203,7 +218,7 @@
                 scrollMove({y:t+T})
             },
             scroll() {
-                var arr = ['nav-home','nav-about','nav-phases','nav-team','nav-advisors','nav-parteners'];
+                var arr = ['nav-home','nav-about','nav-phases','nav-team','nav-supports','nav-advisors','nav-parteners'];
                 window.addEventListener('scroll', () => {
                     for (var i = 0; i < arr.length; i++) {
                         var rect = this.$refs[arr[i]].getBoundingClientRect();
@@ -218,6 +233,7 @@
             }
         },
         components: {
+            Support,
             Hexagon,
             Phases,
             Parteners,
