@@ -15,5 +15,5 @@ fs.readdir('./',(e,files)=>{
     
     del(delArr).then(paths=>{
         console.log('Deleted files:\n', paths.join('\n'));
-    });
+    }); 
 });

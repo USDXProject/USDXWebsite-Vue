@@ -1,5 +1,5 @@
 {
-  "name": "vue-router-demo",
+  "name": "vue-router-demo", 
   "version": "1.2.5",
   "description": "vue-router,vue,webpack,vuex",
   "scripts": {
